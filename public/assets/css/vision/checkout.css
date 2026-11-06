@@ -1,0 +1,255 @@
+/* Checkout and payment-result presentation, scoped to the Vision skin. */
+.vision-store .vision-container.vision-checkout-page {
+  padding-block: clamp(2rem, 5vw, 4rem);
+}
+.vision-checkout-heading {
+  max-width: 54rem;
+  margin: 0 auto;
+}
+.vision-checkout-heading h1,
+.vision-checkout-result h1 {
+  margin-block: 0.5rem 0.75rem;
+  font: 500 clamp(2.5rem, 6vw, 4.5rem) / 1 var(--font-display);
+}
+.vision-checkout-heading > p:last-child {
+  max-width: 42rem;
+}
+.vision-checkout-breadcrumb {
+  max-width: 54rem;
+  margin: 0 auto 1.5rem;
+  color: var(--muted-foreground);
+  font-size: 0.875rem;
+}
+.vision-checkout-breadcrumb a,
+.vision-checkout-links a,
+.vision-checkout-secondary {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+.vision-checkout-progress {
+  max-width: 54rem;
+  margin: 2rem auto;
+}
+.vision-checkout-progress ol {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.5rem;
+  list-style: none;
+}
+.vision-checkout-progress li {
+  min-width: 0;
+  padding: 0.75rem 0.5rem;
+  border-top: 2px solid var(--border);
+  color: var(--muted-foreground);
+  font-size: 0.75rem;
+  text-align: center;
+}
+.vision-checkout-progress li[aria-current="step"] {
+  border-color: var(--primary);
+  color: var(--foreground);
+  font-weight: 500;
+}
+.vision-checkout-progress__current {
+  margin-top: 0.5rem;
+  color: var(--muted-foreground);
+  font-size: 0.75rem;
+  text-align: right;
+}
+.vision-checkout-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(17rem, 0.8fr);
+  align-items: start;
+  gap: 2rem;
+  max-width: 72rem;
+  margin-inline: auto;
+}
+.vision-checkout-main,
+.vision-checkout-panel,
+.vision-checkout-result {
+  min-width: 0;
+  border: 1px solid var(--border);
+  background: var(--card);
+}
+.vision-checkout-overview {
+  padding: clamp(1.25rem, 3vw, 2rem);
+}
+.vision-checkout-overview__status {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.5rem 1rem;
+  align-items: baseline;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border);
+}
+.vision-checkout-overview__status span {
+  color: var(--muted-foreground);
+  font-size: 0.875rem;
+}
+.vision-checkout-overview__status strong {
+  font: 500 1.5rem / 1.1 var(--font-display);
+}
+.vision-checkout-overview > h2 {
+  margin-bottom: 1rem;
+  font: 500 1.75rem / 1.15 var(--font-display);
+}
+.vision-checkout-items {
+  list-style: none;
+}
+.vision-checkout-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 1rem;
+  padding-block: 1rem;
+  border-bottom: 1px solid var(--border);
+}
+.vision-checkout-item--image {
+  display: grid;
+  grid-template-columns: 5rem minmax(0, 1fr) auto;
+  align-items: center;
+}
+.vision-checkout-item > img {
+  width: 5rem;
+  height: 6rem;
+  object-fit: cover;
+  background: var(--surface);
+}
+.vision-checkout-item__copy {
+  display: grid;
+  gap: 0.25rem;
+  min-width: 0;
+}
+.vision-checkout-item__copy p {
+  color: var(--muted-foreground);
+  font-size: 0.8rem;
+}
+.vision-checkout-item__amount {
+  align-self: center;
+  white-space: nowrap;
+  text-align: right;
+}
+.vision-checkout-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border);
+}
+.vision-checkout-total span {
+  font-size: 0.875rem;
+}
+.vision-checkout-total strong {
+  font: 500 clamp(2rem, 4vw, 2.75rem) / 1 var(--font-display);
+  text-align: right;
+}
+.vision-checkout-panel {
+  position: sticky;
+  top: calc(var(--site-header-height, 5rem) + 1rem);
+  display: grid;
+  gap: 1rem;
+  padding: clamp(1.25rem, 3vw, 2rem);
+  background: var(--surface);
+}
+.vision-checkout-panel h2 {
+  font: 500 1.75rem / 1.1 var(--font-display);
+}
+.vision-checkout-action {
+  display: grid;
+  gap: 0.75rem;
+}
+.vision-checkout-action .btn-solid,
+.vision-checkout-action .btn-outline,
+.vision-checkout-panel > .btn-outline,
+.vision-checkout-result__actions > a {
+  display: flex;
+  width: 100%;
+  min-height: 3rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1rem;
+  text-align: center;
+}
+.vision-checkout-action p,
+.vision-checkout-panel > p:not(.eyebrow) {
+  font-size: 0.875rem;
+}
+.vision-checkout-secondary {
+  justify-self: start;
+  font-size: 0.875rem;
+}
+.vision-checkout-links,
+.vision-checkout-result__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  padding: 1.25rem;
+}
+.vision-checkout-links a {
+  font-size: 0.875rem;
+}
+.vision-checkout-result {
+  max-width: 54rem;
+  margin: 1rem auto;
+  padding: clamp(1.5rem, 5vw, 3.5rem);
+}
+.vision-checkout-result > p:not(.eyebrow) {
+  max-width: 42rem;
+}
+.vision-checkout-result .vision-checkout-progress {
+  margin-block: 2rem;
+}
+.vision-checkout-result__actions {
+  padding: 1.5rem 0 0;
+}
+.vision-checkout-result__actions > a {
+  width: auto;
+  min-width: 12rem;
+}
+.vision-checkout-page a:focus-visible,
+.vision-checkout-page button:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 3px;
+}
+@media (max-width: 767px) {
+  .vision-checkout-layout {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1rem;
+  }
+  .vision-checkout-panel {
+    position: static;
+  }
+}
+@media (max-width: 420px) {
+  .vision-checkout-progress ol {
+    gap: 0.25rem;
+  }
+  .vision-checkout-progress li {
+    padding-inline: 0.2rem;
+    font-size: 0.65rem;
+    overflow-wrap: anywhere;
+  }
+  .vision-checkout-item {
+    gap: 0.5rem;
+  }
+  .vision-checkout-item--image {
+    grid-template-columns: 3.75rem minmax(0, 1fr);
+  }
+  .vision-checkout-item > img {
+    width: 3.75rem;
+    height: 4.5rem;
+  }
+  .vision-checkout-item__amount {
+    grid-column: 2;
+    justify-self: start;
+    text-align: left;
+  }
+  .vision-checkout-result__actions {
+    display: grid;
+  }
+  .vision-checkout-result__actions > a {
+    width: 100%;
+  }
+}

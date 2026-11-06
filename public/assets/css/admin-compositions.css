@@ -1,0 +1,31 @@
+.recipe-layout { display:grid; grid-template-columns:minmax(200px,260px) minmax(0,1fr); gap:1.5rem; align-items:start; }
+.recipe-layout > * { min-width:0; }
+.recipe-list ul { list-style:none; margin:1rem 0 0; padding:0; }
+.recipe-list li + li { border-top:1px solid var(--border-color,#ddd8ce); }
+.recipe-list a { display:grid; gap:.35rem; padding:1rem .5rem; text-decoration:none; }
+.recipe-list a[aria-current] { background:#efeee6; border-left:3px solid #445039; }
+.recipe-list a span { font-size:.85rem; }
+.recipe-tabs { display:flex; flex-wrap:wrap; gap:.5rem; margin:1rem 0 1.5rem; padding-bottom:.75rem; border-bottom:1px solid #ddd8ce; }
+.recipe-tabs a { padding:.65rem .8rem; text-decoration:none; border:1px solid transparent; }
+.recipe-tabs a[aria-selected="true"] { background:#efeee6; border-color:#b4baa7; }
+.recipe-editor [data-recipe-panel] { scroll-margin-top:2rem; }
+.recipe-item { min-width:0; margin:1rem 0 1.5rem; padding:1rem; border:1px solid #d6d4cb; }
+.recipe-item legend { font-size:1.1rem; padding:0 .5rem; }
+.recipe-item > label { display:block; margin:.75rem 0; }
+.recipe-item input[type="checkbox"] { width:auto; }
+.recipe-advanced { margin:1rem 0; padding:.8rem; background:#f5f4ef; }
+.recipe-advanced summary,.recipe-picker summary { cursor:pointer; padding:.3rem 0; }
+.recipe-advanced .admin-grid { margin-top:1rem; }
+.recipe-picker { margin-top:1rem; padding:.75rem; border:1px solid #ddd8ce; }
+.recipe-picker-options { max-height:18rem; overflow:auto; margin-top:.75rem; }
+.recipe-picker-options label { display:flex; gap:.7rem; align-items:start; padding:.6rem .3rem; }
+.recipe-picker-options input { margin-top:.25rem; flex-shrink:0; }
+.recipe-picker + .help { overflow-wrap:anywhere; }
+.recipe-save { margin-top:1.5rem; border-top:1px solid #ddd8ce; padding-top:1rem; }
+.recipe-add { margin-top:.5rem; display:inline-block; }
+.recipe-layout [hidden] { display:none !important; }
+@media(max-width:1000px) { .recipe-layout { grid-template-columns:1fr; } .recipe-list ul { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); } }
+@media(max-width:480px) { .recipe-tabs { gap:.2rem; } .recipe-tabs a { padding:.6rem .4rem; font-size:.85rem; } .recipe-item { padding:.75rem; } }
+
+.recipe-picker-options small { display:block; opacity:.7; margin-top:.2rem; }
+.recipe-tabs { position:sticky; top:0; z-index:2; background:var(--card,#fffdf9); }

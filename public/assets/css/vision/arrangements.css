@@ -1,0 +1,58 @@
+/* Arrangements page: reviewed PageHero and CollectionSet layout over real offers. */
+.vision-store .arrangement-shop-hero .button { margin-top: 1.5rem; }
+.vision-store .arrangement-shop,.vision-store .arrangement-rental-banner { padding: 3.5rem 2rem; }
+.vision-store .arrangement-shop-heading { display: flex; justify-content: space-between; align-items: end; flex-wrap: wrap; gap: 1.5rem; margin-bottom: 1.5rem; }
+.vision-store .arrangement-shop-heading h2,.vision-store .arrangement-rental-banner h2 { margin-top: .5rem; font: 400 clamp(2rem,3.5vw,2.75rem)/1.1 var(--font-display); }
+.vision-store .arrangement-search { display: grid; grid-template-columns: minmax(0,1fr) auto; gap: .5rem; width: min(100%,22rem); }
+.vision-store .arrangement-search label { grid-column: 1/-1; font-size: .72rem; color: var(--muted-foreground); }
+.vision-store .arrangement-search input { min-width: 0; min-height: 44px; border: 1px solid var(--border); background: var(--card); padding: .7rem; font: inherit; }
+.vision-store .arrangement-search button { padding: .6rem .8rem; background: var(--primary); color: var(--primary-foreground); font: inherit; }
+.vision-store .arrangement-space-tabs { display: flex; gap: 1.5rem; border-bottom: 1px solid var(--border); overflow-x: auto; }
+.vision-store .arrangement-space-tabs a { display: inline-flex; align-items: center; min-height: 44px; white-space: nowrap; border-bottom: 2px solid transparent; }
+.vision-store .arrangement-space-tabs a[aria-current] { border-color: var(--primary); }
+.vision-store .arrangement-results-toolbar { margin-top: 1.25rem; }
+.vision-store .arrangement-offer-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 1.5rem; }
+.vision-store .arrangement-offer { display: flex; min-width: 0; flex-direction: column; border: 1px solid var(--border); background: var(--card); }
+.vision-store .arrangement-offer-top { display: grid; grid-template-columns: minmax(0,1.1fr) minmax(0,1fr); min-height: 20rem; }
+.vision-store .arrangement-offer-media { position: relative; min-width: 0; overflow: hidden; background: var(--surface); }
+.vision-store .arrangement-offer-media img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.vision-store .arrangement-offer-includes { display: flex; flex-direction: column; min-width: 0; padding: 1rem .75rem; }
+.vision-store .arrangement-offer-includes ul { display: grid; gap: .75rem; padding: 0; margin-top: 1rem; list-style: none; font-size: .75rem; line-height: 1.5; color: var(--muted-foreground); }
+.vision-store .arrangement-offer-includes li { display: grid; grid-template-columns: 1.25rem minmax(0,1fr); gap: .4rem; overflow-wrap: anywhere; }
+.vision-store .arrangement-offer-includes li:has(.arrangement-include-thumb) { grid-template-columns: 3rem minmax(0,1fr); align-items: center; }
+.vision-store .arrangement-include-thumb { display: block; width: 3rem; height: 3rem; object-fit: cover; background: var(--surface); }
+.vision-store .arrangement-offer-price { margin-top: auto; padding-top: 1rem; }
+.vision-store .arrangement-offer-price p { font: 400 1.35rem/1.2 var(--font-display); }
+.vision-store .arrangement-offer-price small { display: block; margin-top: .4rem; font-size: .7rem; color: var(--muted-foreground); }
+.vision-store .arrangement-offer-body { display: flex; flex: 1; flex-direction: column; gap: .65rem; padding: 1rem; min-width: 0; }
+.vision-store .arrangement-offer-body h3 { font: 400 1.75rem/1.1 var(--font-display); }
+.vision-store .arrangement-offer-body > p { font-size: .85rem; line-height: 1.5; color: var(--muted-foreground); }
+.vision-store .arrangement-offer-body > a { margin-top: auto; width: 100%; }
+.vision-store .arrangement-offer-options { padding-block: .5rem; font-size: .75rem; }
+.vision-store .arrangement-offer-options summary { cursor: pointer; min-height: 44px; padding-top: .65rem; }
+.vision-store .arrangement-offer-options section { padding-block: .6rem; border-top: 1px solid var(--border); }
+.vision-store .arrangement-offer-options h4 { font-size: .85rem; font-weight: 500; }
+.vision-store .arrangement-offer-options li { margin-top: .5rem; }
+.vision-store .arrangement-offer-options small { display: block; color: var(--muted-foreground); }
+.vision-store .arrangement-estimate-note { margin-top: .75rem; line-height: 1.5; }
+.vision-store .arrangement-rental-banner { display: flex; align-items: center; justify-content: space-between; gap: 2rem; background: var(--surface); }
+.vision-store .arrangement-rental-banner p:not(.eyebrow) { margin-top: .75rem; color: var(--muted-foreground); }
+.vision-store .arrangement-rental-banner > a { flex-shrink: 0; }
+.vision-store .arrangement-shop :is(input,button,a,summary):focus-visible { outline: 2px solid var(--primary); outline-offset: 3px; }
+@media(max-width:1023px) { .vision-store .arrangement-offer-grid { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+@media(max-width:767px) {
+ .vision-store .arrangement-shop,.vision-store .arrangement-rental-banner { padding: 2.5rem 1rem; }
+ .vision-store .arrangement-offer-grid { grid-template-columns: minmax(0,1fr); }
+ .vision-store .arrangement-shop-heading,.vision-store .arrangement-rental-banner { align-items: stretch; flex-direction: column; }
+ .vision-store .arrangement-search { width: 100%; }
+}
+@media(max-width:359px) {
+ .vision-store .arrangement-offer-top { grid-template-columns: 1fr; height: auto; }
+ .vision-store .arrangement-offer-media { aspect-ratio: 4/3; }
+ .vision-store .arrangement-offer-includes { min-height: 12rem; }
+}
+
+.vision-store .arrangement-about { padding: 1rem 2rem 0; font-size: .8rem; color: var(--muted-foreground); }
+.vision-store .arrangement-about summary { cursor: pointer; min-height: 44px; padding-top: .6rem; }
+.vision-store .arrangement-about h2 { font: 400 1.5rem/1.2 var(--font-display); }
+.vision-store .arrangement-about p { max-width: 50rem; margin-block: .6rem; }

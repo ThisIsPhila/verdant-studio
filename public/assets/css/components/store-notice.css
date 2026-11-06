@@ -1,0 +1,15 @@
+.store-notice {
+  width: min(32rem, calc(100% - 2rem));
+  max-height: calc(100dvh - 2rem);
+  margin: auto;
+  padding: clamp(1.3rem, 4vw, 2.5rem);
+  border: 1px solid #d6d3c5;
+  background: #faf8f1;
+  color: #343b2c;
+  box-shadow: 0 1rem 4rem #0003;
+}
+.store-notice::backdrop { background: #25291f66; }
+.store-notice h2 { font: 2rem var(--font-display, Georgia, serif); margin: 0 0 1rem; }
+.store-notice p { font-size: 1rem; line-height: 1.6; }
+.store-notice button { margin-top: 1.2rem; padding: .8rem 1rem; background: #475638; color: #fff; border: 0; cursor: pointer; font: inherit; }
+.store-payment-notice { margin: 1rem auto; padding: 1rem; max-width: 78rem; border: 1px solid #d6d3c5; background: #faf8f1; color: #343b2c; }

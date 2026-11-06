@@ -1,0 +1,305 @@
+.vision-discovery-section {
+  max-width: 80rem;
+  margin-inline: auto;
+  padding: 2.5rem 1.5rem 4rem;
+}
+
+.vision-discovery-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 1.25rem;
+  margin-bottom: 1.35rem;
+}
+
+.vision-discovery-heading h2,
+.vision-rental-date-panel h2,
+.vision-rental-service h2,
+.vision-homes-build h3 {
+  margin-top: .4rem;
+  font: 500 clamp(1.85rem, 3vw, 2.75rem)/1.05 var(--font-display);
+}
+
+.vision-discovery-heading > div > p:last-child,
+.vision-homes-hero__copy > p:not(.eyebrow),
+.vision-rental-date-panel > div > p:last-child {
+  max-width: 42rem;
+  margin-top: .55rem;
+  color: var(--muted-foreground);
+  font-size: .9rem;
+  line-height: 1.65;
+}
+
+.vision-discovery-reset {
+  flex: 0 0 auto;
+  padding-bottom: .35rem;
+  border-bottom: 1px solid currentColor;
+  font-size: .7rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.vision-discovery-note {
+  color: var(--muted-foreground);
+  font-size: .8rem;
+}
+
+.vision-rental-date-panel {
+  display: grid;
+  grid-template-columns: minmax(15rem, .9fr) minmax(20rem, 1.1fr);
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  padding: clamp(1.25rem, 3vw, 2rem);
+  background: var(--surface);
+}
+
+.vision-rental-date-panel h2 { max-width: 30rem; }
+
+.vision-rental-date-form {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: end;
+  gap: .8rem;
+}
+
+.vision-rental-date-form label {
+  display: grid;
+  gap: .4rem;
+  font-size: .68rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.vision-rental-date-form input,
+.vision-filter-form select,
+.vision-filter-form input {
+  width: 100%;
+  min-width: 0;
+  min-height: 2.75rem;
+  border: 1px solid var(--border);
+  border-radius: 0;
+  background: var(--card);
+  padding: .65rem .75rem;
+  color: var(--foreground);
+  font: .85rem var(--font-body);
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+.vision-rental-date-form .btn-solid { grid-column: 1 / -1; min-height: 2.75rem; }
+
+.vision-rental-categories {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.vision-rental-category {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  border: 1px solid var(--border);
+  background: var(--card);
+}
+
+.vision-rental-category__media {
+  position: relative;
+  display: block;
+  aspect-ratio: 4 / 3;
+  place-items: center;
+  overflow: hidden;
+  background: var(--surface);
+}
+
+.vision-rental-category__media img { position: absolute; inset: 0; width: 100%; height: 100%; }
+.vision-rental-category__media--contain img { object-fit: contain; padding: 8%; }
+.vision-rental-category__media--cover img { object-fit: cover; }
+
+.vision-rental-category__body {
+  display: flex;
+  min-height: 10rem;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem;
+}
+
+.vision-rental-category__body .eyebrow { font-size: .56rem; }
+.vision-rental-category__body h3 { margin-top: .3rem; font: 500 1.55rem/1.05 var(--font-display); }
+.vision-rental-category__body > p:not(.eyebrow) { margin-top: .55rem; color: var(--muted-foreground); font-size: .76rem; line-height: 1.5; }
+.vision-rental-category__action { margin-top: auto; padding-top: 1rem; font-size: .62rem; letter-spacing: .09em; text-transform: uppercase; }
+.vision-rental-category__action span { margin-left: .3rem; }
+.vision-rental-category.is-selected { border-color: var(--primary); box-shadow: inset 0 0 0 1px var(--primary); }
+
+.vision-rental-results { border-top: 1px solid var(--border); padding-top: 2.25rem; }
+.vision-rentals .vision-product-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.vision-rentals .vision-card-image > a { aspect-ratio: 4 / 5; }
+.vision-rentals .vision-catalogue-layout { grid-template-columns: 13.5rem minmax(0, 1fr); gap: 1.5rem; }
+.vision-rentals .vision-filter-disclosure > summary { display: none; }
+.vision-rentals .vision-filter-disclosure:not([open]) > .vision-filter-form { display: block; }
+.vision-rentals .vision-filter-form { padding: 1rem; }
+.vision-rentals .vision-filter-form .vision-results-heading { margin-bottom: .5rem; }
+.vision-rentals .vision-filter-group { padding: .75rem 0; }
+.vision-rentals .vision-filter-group fieldset { border: 0; }
+.vision-rentals .vision-filter-group legend,
+.vision-rentals .vision-filter-group > label { display: block; margin-bottom: .4rem; font: 500 1rem var(--font-display); }
+.vision-rentals .vision-filter-group label:has(input[type="radio"]) { display: flex; align-items: center; gap: .5rem; min-height: 1.8rem; font: .75rem var(--font-body); }
+.vision-rentals .vision-filter-group input[type="radio"] { width: auto; min-height: auto; accent-color: var(--primary); }
+.vision-rentals .vision-filter-form > .btn-solid { width: 100%; min-height: 2.75rem; }
+
+.vision-rental-service {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr 1fr;
+  gap: 1.5rem;
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+
+.vision-rental-service h2 { font-size: 2rem; }
+.vision-rental-service p { color: var(--muted-foreground); font-size: .8rem; line-height: 1.6; }
+.vision-rental-service strong { display: block; margin-bottom: .35rem; color: var(--foreground); font-weight: 500; }
+
+.vision-homes-hero {
+  display: grid;
+  max-width: 80rem;
+  grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr);
+  align-items: stretch;
+  gap: clamp(1.5rem, 4vw, 4rem);
+  margin-inline: auto;
+  padding: 2.5rem 1.5rem 3rem;
+}
+
+.vision-homes-hero__copy { display: flex; flex-direction: column; justify-content: center; padding-block: 1rem; }
+.vision-homes-hero__copy h1 { max-width: 11ch; margin-top: .7rem; font: 500 clamp(3rem, 6vw, 5.5rem)/.88 var(--font-display); }
+.vision-homes-hero__actions { display: flex; flex-wrap: wrap; gap: .7rem; margin-top: 1.35rem; }
+.vision-homes-hero__actions a { display: inline-flex; min-height: 2.75rem; align-items: center; justify-content: center; gap: .55rem; padding: .75rem 1rem; font-size: .62rem; letter-spacing: .08em; text-transform: uppercase; }
+.vision-homes-hero__media { min-height: 25rem; overflow: hidden; background: var(--surface); }
+.vision-homes-hero__media img { display: block; width: 100%; height: 100%; min-height: 25rem; object-fit: cover; }
+
+.vision-homes-benefits { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .7rem; margin: 1.7rem 0 0; padding: 1rem 0 0; border-top: 1px solid var(--border); list-style: none; }
+.vision-homes-benefits li { display: flex; align-items: center; gap: .4rem; color: var(--muted-foreground); font-size: .62rem; line-height: 1.4; }
+.vision-homes-benefits li span { color: var(--primary); font-size: 1.3rem; }
+
+.vision-homes-arrangements { padding-top: 1.75rem; }
+.vision-homes-arrangement-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); align-items: stretch; gap: 1rem; }
+.vision-homes-arrangement-card { display: flex; min-width: 0; flex-direction: column; border: 1px solid var(--border); background: var(--card); }
+.vision-homes-arrangement-card__top { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); min-height: 18rem; }
+.vision-homes-arrangement-card__media { min-width: 0; min-height: 18rem; background: var(--surface); }
+.vision-homes-arrangement-card__media img { display: block; width: 100%; height: 100%; min-height: 18rem; object-fit: cover; }
+.vision-homes-arrangement-card__includes { display: flex; min-width: 0; flex-direction: column; padding: .8rem; }
+.vision-homes-arrangement-card__includes > .eyebrow { margin-bottom: .35rem; font-size: .55rem; }
+.vision-homes-arrangement-card__includes ul { display: grid; gap: .18rem; margin: 0; padding: 0; list-style: none; }
+.vision-homes-arrangement-card__includes li { display: grid; grid-template-columns: 2rem minmax(0, 1fr); align-items: center; gap: .45rem; min-height: 2.3rem; color: var(--muted-foreground); font-size: .62rem; line-height: 1.35; }
+.vision-homes-arrangement-thumb { display: grid; width: 2rem; height: 2rem; place-items: center; background: var(--surface); color: var(--primary); font-size: 1.15rem; }
+.vision-homes-arrangement-thumb img { width: 100%; height: 100%; object-fit: contain; }
+.vision-homes-arrangement-empty { margin: .5rem 0; color: var(--muted-foreground); font-size: .7rem; }
+.vision-homes-arrangement-price { margin-top: auto; padding-top: .8rem; border-top: 1px solid var(--border); color: var(--foreground); font: 500 .95rem var(--font-display); }
+.vision-homes-arrangement-card__body { display: flex; flex: 1; flex-direction: column; align-items: flex-start; padding: 1rem; }
+.vision-homes-arrangement-card__body .eyebrow { font-size: .54rem; }
+.vision-homes-arrangement-card__body h3 { margin-top: .35rem; font: 500 1.75rem/1.05 var(--font-display); }
+.vision-homes-arrangement-card__description { min-height: 3.1rem; margin-top: .45rem; color: var(--muted-foreground); font-size: .75rem; line-height: 1.5; }
+.vision-homes-arrangement-card__body .btn-solid { display: flex; width: 100%; min-height: 2.75rem; align-items: center; justify-content: space-between; gap: .4rem; margin-top: auto; padding: .65rem .8rem; font-size: .6rem; letter-spacing: .06em; text-transform: uppercase; }
+.vision-homes-arrangement-card__note { margin-top: .55rem; color: var(--muted-foreground); font-size: .62rem; }
+.vision-empty-editorial { padding: 2rem; background: var(--surface); }
+.vision-empty-editorial h3 { font: 500 1.5rem var(--font-display); }
+.vision-empty-editorial p { margin-top: .4rem; color: var(--muted-foreground); font-size: .8rem; }
+
+.vision-homes-products { padding-top: 1.5rem; }
+.vision-homes-products .vision-catalogue-layout { grid-template-columns: 13.5rem minmax(0, 1fr); gap: 1.5rem; }
+.vision-homes-products .filter-disclosure > summary { display: block; border: 1px solid var(--border); padding: .8rem; cursor: pointer; font-size: .65rem; letter-spacing: .12em; text-align: center; text-transform: uppercase; }
+.vision-homes-products .filter-disclosure:not([open]) > .vision-filter-form { display: none; }
+.vision-homes-products .vision-filter-group { display: grid; gap: .45rem; border-top: 1px solid var(--border); padding: .8rem 0; }
+.vision-homes-products .vision-filter-group label { font-size: .68rem; }
+.vision-homes-products .vision-filter-actions { display: grid; gap: .65rem; margin-top: 1rem; }
+.vision-homes-products .vision-filter-actions .btn-solid { min-height: 2.75rem; }
+.vision-homes-products .vision-filter-actions > a { justify-self: center; font-size: .7rem; text-decoration: underline; }
+.vision-homes-products .vision-product-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.vision-homes-build { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; margin-top: 2.5rem; padding: 1.5rem; background: var(--surface); }
+.vision-homes-build h3 { font-size: 2rem; }
+.vision-homes-build p:not(.eyebrow) { max-width: 42rem; margin-top: .4rem; color: var(--muted-foreground); font-size: .8rem; line-height: 1.6; }
+.vision-homes-build .btn-solid { display: inline-flex; min-height: 2.75rem; flex: 0 0 auto; align-items: center; gap: .6rem; padding: .75rem 1rem; font-size: .62rem; letter-spacing: .07em; text-transform: uppercase; }
+.vision-homes-more { margin-top: 1.25rem; color: var(--muted-foreground); font-size: .7rem; }
+.vision-homes-more a { text-decoration: underline; text-underline-offset: .2em; }
+
+.vision-collection-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+.vision-collection-page-hero h1 { max-width: 11ch; margin-top: .75rem; font: 500 clamp(3rem, 6vw, 5.5rem)/.9 var(--font-display); }
+.vision-collection-page-hero p:not(.eyebrow) { max-width: 36rem; margin-top: 1rem; color: var(--muted-foreground); font-size: 1rem; line-height: 1.6; }
+.vision-collection-grid .collection-card { display: flex; min-width: 0; flex-direction: column; border: 1px solid var(--border); background: var(--card); }
+.vision-collection-grid .collection-card__image { display: block; aspect-ratio: 16 / 10; overflow: hidden; background: var(--surface); }
+.vision-collection-grid .collection-card__image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.vision-collection-grid .collection-card__copy { display: flex; flex: 1; flex-direction: column; align-items: flex-start; padding: 1rem; }
+.vision-collection-grid .collection-card__copy > .eyebrow { color: var(--muted-foreground); font-size: .58rem; }
+.vision-collection-grid .collection-card__copy h3 { margin-top: .35rem; font: 500 1.7rem/1.05 var(--font-display); }
+.vision-collection-grid .collection-card__copy > p:not(.eyebrow) { margin-top: .5rem; color: var(--muted-foreground); font-size: .78rem; line-height: 1.55; }
+.vision-collection-grid .collection-card__copy .text-link { margin-top: auto; padding-top: 1rem; font-size: .62rem; letter-spacing: .1em; text-transform: uppercase; }
+.vision-collection-detail .vision-catalogue-layout { grid-template-columns: 13.5rem minmax(0, 1fr); gap: 1.5rem; }
+.vision-collection-detail .filter-disclosure > summary { display: block; border: 1px solid var(--border); padding: .8rem; cursor: pointer; font-size: .65rem; letter-spacing: .12em; text-align: center; text-transform: uppercase; }
+.vision-collection-detail .filter-disclosure:not([open]) > .vision-filter-form { display: none; }
+.vision-collection-detail .vision-filter-group { display: grid; gap: .45rem; border-top: 1px solid var(--border); padding: .8rem 0; }
+.vision-collection-detail .vision-filter-group label { font-size: .68rem; }
+.vision-collection-detail .vision-filter-actions { display: grid; gap: .65rem; margin-top: 1rem; }
+.vision-collection-detail .vision-filter-actions .btn-solid { min-height: 2.75rem; }
+.vision-collection-detail .vision-filter-actions > a { justify-self: center; font-size: .7rem; text-decoration: underline; }
+.vision-collection-detail .vision-product-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.vision-collection-footer p { color: var(--muted-foreground); font-size: .7rem; }
+.vision-collection-footer a { text-decoration: underline; text-underline-offset: .2em; }
+
+@media (max-width: 1023px) {
+  .vision-rentals .vision-catalogue-layout,
+  .vision-homes-products .vision-catalogue-layout { grid-template-columns: 1fr; }
+  .vision-rentals .vision-filter-disclosure > summary { display: block; border: 1px solid var(--border); padding: .8rem; cursor: pointer; font-size: .65rem; letter-spacing: .12em; text-align: center; text-transform: uppercase; }
+  .vision-rentals .vision-filter-disclosure:not([open]) > .vision-filter-form { display: none; }
+  .vision-rentals .vision-product-grid,
+  .vision-homes-products .vision-product-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .vision-rental-categories { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .vision-homes-arrangement-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .vision-collection-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .vision-collection-detail .vision-catalogue-layout { grid-template-columns: 1fr; }
+  .vision-collection-detail .vision-product-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .vision-homes-hero { grid-template-columns: .9fr 1.1fr; }
+}
+
+@media (max-width: 700px) {
+  .vision-discovery-section { padding: 1.5rem 1rem 3rem; }
+  .vision-discovery-heading { align-items: flex-start; flex-direction: column; gap: .6rem; }
+  .vision-discovery-reset { align-self: flex-start; }
+  .vision-rental-date-panel { grid-template-columns: 1fr; gap: 1rem; margin-bottom: 2.25rem; padding: 1rem; }
+  .vision-rental-date-form { gap: .65rem; }
+  .vision-rental-categories { gap: .7rem; margin-bottom: 2rem; }
+  .vision-rental-category__body { min-height: 12rem; padding: .75rem; }
+  .vision-rental-category__body h3 { font-size: 1.35rem; }
+  .vision-rental-category__body > p:not(.eyebrow) { font-size: .68rem; }
+  .vision-rentals .vision-product-grid,
+  .vision-homes-products .vision-product-grid { gap: .8rem; }
+  .vision-rentals .vision-card-image > a { aspect-ratio: 4 / 5; }
+  .vision-rentals .vision-filter-form { padding: .9rem; }
+  .vision-rental-service { grid-template-columns: 1fr; gap: 1rem; margin-top: 2rem; }
+  .vision-homes-hero { grid-template-columns: 1fr; gap: 1rem; padding: 1.5rem 1rem 2rem; }
+  .vision-homes-hero__copy { padding-block: 0; }
+  .vision-homes-hero__media,
+  .vision-homes-hero__media img { min-height: 17rem; }
+  .vision-homes-benefits { gap: .4rem; }
+  .vision-homes-benefits li { align-items: flex-start; font-size: .55rem; }
+  .vision-homes-arrangement-grid { grid-template-columns: 1fr; }
+  .vision-collection-grid { grid-template-columns: 1fr; }
+  .vision-homes-arrangement-card__top { min-height: 16rem; }
+  .vision-homes-arrangement-card__media,
+  .vision-homes-arrangement-card__media img { min-height: 16rem; }
+  .vision-homes-products .vision-results-heading { align-items: flex-start; flex-direction: column; }
+  .vision-homes-build { align-items: flex-start; flex-direction: column; padding: 1rem; }
+  .vision-homes-build .btn-solid { width: 100%; justify-content: space-between; }
+}
+
+@media (max-width: 390px) {
+  .vision-rental-category__media { aspect-ratio: 1 / 1; }
+  .vision-rental-category__body { min-height: 10rem; padding: .65rem; }
+  .vision-rental-date-form { grid-template-columns: 1fr; }
+  .vision-homes-benefits li { display: block; }
+  .vision-homes-benefits li span { display: block; }
+  .vision-homes-arrangement-card__top { grid-template-columns: .85fr 1.15fr; }
+}
+
+.vision-homes-component-mode { display: block; font-size: 0.65rem; color: var(--muted-foreground); }

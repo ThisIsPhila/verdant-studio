@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" role="img" aria-labelledby="title desc">
+  <title id="title">Cut foliage placeholder</title><desc id="desc">Abstract line pattern placeholder for cut foliage.</desc>
+  <rect width="800" height="560" fill="#e4ebe3"/><circle cx="400" cy="240" r="142" fill="#f7f7ef"/>
+  <g fill="none" stroke="#718577" stroke-width="8" stroke-linecap="round"><path d="M400 342V160m0 118c-54 0-83-28-86-76 45 2 75 23 86 58m0-15c51 0 80-28 83-76-44 2-73 22-83 58m0 80c-45 0-69-23-72-64 38 2 62 19 72 48m0-7c44 0 68-23 71-64-38 2-62 19-71 48"/></g>
+  <text x="400" y="480" text-anchor="middle" fill="#34463a" font-family="Georgia,serif" font-size="28">CUT FOLIAGE · PLACEHOLDER</text>
+</svg>

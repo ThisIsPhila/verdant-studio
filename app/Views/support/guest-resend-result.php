@@ -1,0 +1,1 @@
+<section class="support-guest-card"><p class="support-kicker">Verdant · Customer support</p><h1>Check your email</h1><p>If the conversation details match an available guest enquiry, a new access link will be sent. Check your inbox shortly.</p><a href="/contact">Return to Contact</a></section>

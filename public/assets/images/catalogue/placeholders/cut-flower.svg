@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" role="img" aria-labelledby="title desc">
+  <title id="title">Cut flower placeholder</title><desc id="desc">Abstract geometric placeholder for cut flowers.</desc>
+  <rect width="800" height="560" fill="#f0e6e2"/><circle cx="400" cy="240" r="142" fill="#fbf7f1"/>
+  <g fill="none" stroke="#9b7770" stroke-width="8"><path d="M400 339V194m-34 145 34-93m36 93-36-118"/><circle cx="400" cy="174" r="24"/><circle cx="356" cy="255" r="16"/><circle cx="438" cy="220" r="19"/></g>
+  <text x="400" y="480" text-anchor="middle" fill="#4e3c39" font-family="Georgia,serif" font-size="28">CUT FLOWER · PLACEHOLDER</text>
+</svg>

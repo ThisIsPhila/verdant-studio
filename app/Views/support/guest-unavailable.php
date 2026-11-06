@@ -1,0 +1,1 @@
+<section class="support-guest-card"><p class="support-kicker">Verdant · Customer support</p><h1>Conversation unavailable</h1><p>This link or conversation is no longer available. Request a new access link from the support page.</p><a href="/contact">Contact Verdant</a></section>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" role="img" aria-labelledby="title desc">
+  <title id="title">Plant arrangement placeholder</title><desc id="desc">Neutral grid placeholder for an assembled plant arrangement.</desc>
+  <rect width="800" height="560" fill="#e4e8df"/><circle cx="400" cy="240" r="142" fill="#f8f7f0"/>
+  <rect x="324" y="164" width="152" height="152" rx="8" fill="none" stroke="#73816d" stroke-width="8"/><path d="M374 164v152m52-152v152m-102-101h152m-152 51h152" stroke="#a5b29d" stroke-width="6"/>
+  <text x="400" y="480" text-anchor="middle" fill="#34463a" font-family="Georgia,serif" font-size="28">PLANT ARRANGEMENT · PLACEHOLDER</text>
+</svg>

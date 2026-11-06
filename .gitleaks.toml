@@ -1,0 +1,6 @@
+title = "Verdant synthetic test fixtures"
+[extend]
+useDefault = true
+[[allowlists]]
+description = "Exact reviewed synthetic placeholder values only; no path or commit exclusions"
+regexes = ['''^sk_test_(syntheticplaceholdervalue|phase008_placeholder|phase009_placeholder)$''']

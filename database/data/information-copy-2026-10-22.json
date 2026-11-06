@@ -1,0 +1,665 @@
+[
+  {
+    "page_key": "contact",
+    "section_key": "hero",
+    "fields": {
+      "body": {
+        "before": [
+          "Whether you’re looking for advice, planning a green space or exploring a partnership, use the sections below to prepare the details for your enquiry.",
+          "Questions about plants, an order, delivery or a return? Get in touch using the contact form and include your order number when it relates to a purchase or rental."
+        ],
+        "after": "Questions about plants, an order, delivery or a return? Get in touch using the contact form and include your order number when it relates to a purchase or rental."
+      }
+    }
+  },
+  {
+    "page_key": "contact",
+    "section_key": "customer",
+    "fields": {
+      "body": {
+        "before": [
+          "Plants, orders and general help\n\nUse this section to prepare a question about plant care, an order, a product, delivery or a return.\n\nCommon subjects\n- Plant care and suitability\n- Orders and delivery\n- Product information\n- Returns and account support\n\nHelpful details to prepare\n- Order number, if you have one\n- A short description of your question\n- Relevant photos, if they help explain an issue",
+          "For help with plant care, product information, an order, delivery or a return, use the contact form. Include your order number when you have one and tell us what you need help with. For a plant or item concern, add a clear description and photos if useful."
+        ],
+        "after": "Plants, orders and general help\n\nAsk us about plant care, an order, a product, delivery or a return. Tell us what you need help with and include your order reference when you have one.\n\nWe can help with\n- Plant care and suitability\n- Orders and delivery\n- Product information\n- Returns and account support"
+      },
+      "link_label": {
+        "before": [
+          "",
+          "Contact customer support"
+        ],
+        "after": ""
+      },
+      "link_path": {
+        "before": [
+          null,
+          "/contact#customer"
+        ],
+        "after": null
+      }
+    }
+  },
+  {
+    "page_key": "contact",
+    "section_key": "corporate",
+    "fields": {
+      "heading": {
+        "before": [
+          "Corporate and spaces",
+          "Corporate enquiries"
+        ],
+        "after": "Corporate and spaces"
+      },
+      "body": {
+        "before": [
+          "Green spaces for people\n\nFor a business, hospitality venue or property project exploring plants, arrangements or rental options.\n\nCommon subjects\n- Office and workplace plants\n- Plant rental and maintenance enquiries\n- Space planning and design questions\n- Hospitality, retail and event projects\n\nHelpful details to prepare\n- Organisation and type of space\n- A short project outline and approximate scope\n- Your preferred timeframe, if known",
+          "Corporate plant, styling and rental enquiries are coming soon for workplaces, hospitality spaces, property projects and events."
+        ],
+        "after": "Green spaces for people\n\nPlants, styling and rental services for workplaces, hospitality spaces and events are coming soon.\n\nPlanned services\n- Office and workplace plants\n- Plant rental and care\n- Space planning and styling\n- Hospitality and event projects"
+      }
+    }
+  },
+  {
+    "page_key": "contact",
+    "section_key": "trade",
+    "fields": {
+      "body": {
+        "before": [
+          "For plant professionals\n\nFor landscapers, interior designers, architects and retailers exploring supply or collaboration.\n\nCommon subjects\n- Trade pricing and account questions\n- Bulk orders and plant supply\n- Product availability\n- Ongoing supply and collaboration\n\nHelpful details to prepare\n- Business name and industry\n- A short description of your requirements\n- Estimated quantities or project scope",
+          "Trade supply and collaboration enquiries are coming soon for plant professionals, designers, retailers and other businesses."
+        ],
+        "after": "For plant professionals\n\nSupply and collaboration services for designers, landscapers and other plant professionals are coming soon.\n\nPlanned services\n- Trade accounts\n- Bulk plant and pot supply\n- Project availability\n- Ongoing supply and collaboration"
+      }
+    }
+  },
+  {
+    "page_key": "delivery",
+    "section_key": "hero",
+    "fields": {
+      "body": {
+        "before": [
+          "Delivery and collection arrangements depend on the items and service Verdant confirms. Check the arrangements for your order and prepare your space for its arrival.",
+          "Check the delivery or collection arrangements shown with your order. They can vary with the items and service selected."
+        ],
+        "after": "Check the delivery or collection arrangements shown with your order. They can vary with the items and service selected."
+      }
+    }
+  },
+  {
+    "page_key": "delivery",
+    "section_key": "step-confirm",
+    "fields": {
+      "body": {
+        "before": [
+          "Review your order and agree the delivery or collection details.",
+          "Check the delivery or collection details shown with your order."
+        ],
+        "after": "Check the delivery or collection details shown with your order."
+      }
+    }
+  },
+  {
+    "page_key": "delivery",
+    "section_key": "step-receive",
+    "fields": {
+      "body": {
+        "before": [
+          "Prepare a suitable spot and follow the care guidance for each plant.",
+          "Choose a suitable spot and follow the care guidance for each plant."
+        ],
+        "after": "Choose a suitable spot and follow the care guidance for each plant."
+      }
+    }
+  },
+  {
+    "page_key": "delivery",
+    "section_key": "confirm-callout",
+    "fields": {
+      "heading": {
+        "before": [
+          "Confirm arrangements before you rely on them",
+          "Check your order details"
+        ],
+        "after": "Check your order details"
+      },
+      "body": {
+        "before": [
+          "Coverage, fees, timing, collection and rental arrangements remain pending business confirmation for this review sample.",
+          "Your order shows the delivery or collection arrangements that apply to the items you selected. If you have a question, contact us with your order number."
+        ],
+        "after": "Your order shows the delivery or collection arrangements that apply to the items you selected. If you have a question, contact us with your order number."
+      }
+    }
+  },
+  {
+    "page_key": "delivery",
+    "section_key": "delivery",
+    "fields": {
+      "body": {
+        "before": [
+          "Delivery coverage, fees, timing and item-specific arrangements have not been confirmed for this review sample. Check the options displayed for a particular order only after the live service rules have been verified.\n\nBefore publication, Verdant should confirm where each product can be delivered, how delivery is arranged, what a customer sees before payment and what happens if an order cannot be fulfilled as planned.",
+          "Available delivery options, charges and timing are shown with the relevant order. Check those details for your items and destination. If an arrangement is unclear or you need help with an order, contact us and include the order number."
+        ],
+        "after": "Available delivery options, charges and timing are shown with the relevant order. Check those details for your items and destination. If an arrangement is unclear or you need help with an order, contact us and include the order number."
+      }
+    }
+  },
+  {
+    "page_key": "delivery",
+    "section_key": "collection",
+    "fields": {
+      "body": {
+        "before": [
+          "A public collection location, available collection times and collection instructions are not confirmed here. The sample must not be used to imply that collection is currently available for a specific order.\n\nBefore choosing collection, confirm the location, when an order is ready and any practical requirements for transporting larger plants or pots.",
+          "Where collection is offered for an order, the location and instructions are shown with that order. Check those details before travelling. Contact us if you need help with a collection arrangement."
+        ],
+        "after": "Where collection is offered for an order, the location and instructions are shown with that order. Check those details before travelling. Contact us if you need help with a collection arrangement."
+      }
+    }
+  },
+  {
+    "page_key": "delivery",
+    "section_key": "preparing-your-space",
+    "fields": {
+      "heading": {
+        "before": [
+          "Preparing your space",
+          "Make room for your plants"
+        ],
+        "after": "Make room for your plants"
+      },
+      "body": {
+        "before": [
+          "Measure the space and check the light conditions before choosing a plant or arrangement. Make sure pots and arrangements have a suitable, stable surface and enough room around them.\n\nBrowse the plant catalogue and the care guidance supplied with each item. General guidance may not suit every species or room.",
+          "Measure the space and check its light before choosing a plant or arrangement. Make sure each pot has a stable surface and enough room around it.\n\nRead the care guidance supplied with each plant. General guidance may not suit every species or room."
+        ],
+        "after": "Measure the space and check its light before choosing a plant or arrangement. Make sure each pot has a stable surface and enough room around it.\n\nRead the care guidance supplied with each plant. General guidance may not suit every species or room."
+      }
+    }
+  },
+  {
+    "page_key": "delivery",
+    "section_key": "rental-delivery-return",
+    "fields": {
+      "body": {
+        "before": [
+          "Rental delivery, collection, installation and return responsibilities depend on the agreed rental. The sample does not confirm coverage, fees, dates or who handles a return.\n\nReview the details shown with a rental and confirm any arrangements through a verified channel before relying on them.",
+          "Your rental details show the agreed dates and delivery, collection and return arrangements. Follow the care information provided for the rental. Contact us if you have a question about those arrangements."
+        ],
+        "after": "Your rental details show the agreed dates and delivery, collection and return arrangements. Follow the care information provided for the rental. Contact us if you have a question about those arrangements."
+      }
+    }
+  },
+  {
+    "page_key": "delivery",
+    "section_key": "order-questions",
+    "fields": {
+      "body": {
+        "before": [
+          "Keep your order reference and a concise note of the question ready. There is no verified public support address or enquiry service connected to this sample yet.\n\nThe customer support section can help you prepare the details, but it does not send them to Verdant.",
+          "Use the contact form for help with an order. Include the order number and a short description of your question."
+        ],
+        "after": "Use the contact form for help with an order. Include the order number and a short description of your question."
+      },
+      "link_label": {
+        "before": [
+          "Prepare an enquiry",
+          "Contact customer support"
+        ],
+        "after": "Contact customer support"
+      }
+    }
+  },
+  {
+    "page_key": "returns",
+    "section_key": "purchase-returns",
+    "fields": {
+      "body": {
+        "before": [
+          "Eligibility, timing and the steps for a purchase return are still awaiting business confirmation. The final policy must explain the process clearly and preserve applicable consumer rights.",
+          "For help with a return, contact us through the contact form and include your order number. Eligibility and next steps depend on the item and circumstances. Your rights under applicable consumer law continue to apply."
+        ],
+        "after": "For help with a return, contact us through the contact form and include your order number. Eligibility and next steps depend on the item and circumstances. Your rights under applicable consumer law continue to apply."
+      }
+    }
+  },
+  {
+    "page_key": "returns",
+    "section_key": "damaged-or-incorrect-items",
+    "fields": {
+      "body": {
+        "before": [
+          "Keep relevant order details and, where practical, take photos of the item and packaging. The contact method, assessment steps and available resolutions need confirmation before this page can promise an outcome.",
+          "Contact us through the contact form with your order number and a description of the issue. Photos of the item and packaging can help us understand what happened. We will respond about the next steps."
+        ],
+        "after": "Contact us through the contact form with your order number and a description of the issue. Photos of the item and packaging can help us understand what happened. We will respond about the next steps."
+      }
+    }
+  },
+  {
+    "page_key": "returns",
+    "section_key": "rental-returns",
+    "fields": {
+      "body": {
+        "before": [
+          "Rental end dates, return condition, collection responsibilities and any charges must be set out in the agreed rental terms. This sample does not book or confirm a rental return.",
+          "Check the rental details for its end date, care requirements and agreed return or collection arrangements. Contact us through the contact form if you need help with a rental return."
+        ],
+        "after": "Check the rental details for its end date, care requirements and agreed return or collection arrangements. Contact us through the contact form if you need help with a rental return."
+      }
+    }
+  },
+  {
+    "page_key": "returns",
+    "section_key": "faq-start-a-return",
+    "fields": {
+      "body": {
+        "before": [
+          "The return route, eligibility rules and time limits still need confirmation. This page cannot submit or track a return. Please keep your order details and review the final Returns policy once Verdant has confirmed the process.",
+          "Use the contact form and include your order number, the item and the reason for your request. We will consider the details and respond about the next steps."
+        ],
+        "after": "Use the contact form and include your order number, the item and the reason for your request. We will consider the details and respond about the next steps."
+      }
+    }
+  },
+  {
+    "page_key": "returns",
+    "section_key": "faq-eligible-items",
+    "fields": {
+      "body": {
+        "before": [
+          "Eligibility can depend on the item and the circumstances. Verdant must confirm its purchase return rules before this answer can be final. Any published policy must preserve your statutory consumer rights.",
+          "Return options depend on the item and circumstances. Contact us with your order details so we can help. This information does not limit rights available under applicable consumer law."
+        ],
+        "after": "Return options depend on the item and circumstances. Contact us with your order details so we can help. This information does not limit rights available under applicable consumer law."
+      }
+    }
+  },
+  {
+    "page_key": "returns",
+    "section_key": "faq-refund-timing",
+    "fields": {
+      "body": {
+        "before": [
+          "A refund timeframe has not been confirmed. The final answer should explain the review steps and any applicable payment-provider processing time without promising an unverified date.",
+          "If a refund is due, its timing depends on the order and payment process. Contact us with your order number if you need an update."
+        ],
+        "after": "If a refund is due, its timing depends on the order and payment process. Contact us with your order number if you need an update."
+      }
+    }
+  },
+  {
+    "page_key": "returns",
+    "section_key": "faq-damaged-plant",
+    "fields": {
+      "body": {
+        "before": [
+          "Keep the order details and, if practical, take clear photos of the item and packaging. A verified support contact and the next steps still need to be added before this can act as a real support route.",
+          "Contact us through the form with your order number and a description of the issue. Photos of the plant, item and packaging can help explain what happened."
+        ],
+        "after": "Contact us through the form with your order number and a description of the issue. Photos of the plant, item and packaging can help explain what happened."
+      }
+    }
+  },
+  {
+    "page_key": "returns",
+    "section_key": "faq-incorrect-item",
+    "fields": {
+      "body": {
+        "before": [
+          "Keep the order details and note what arrived. Verdant still needs to confirm the support channel and resolution process for incorrect items. This page does not send an enquiry.",
+          "Contact us through the form with your order number and tell us which item you expected and what arrived. We will respond about the next steps."
+        ],
+        "after": "Contact us through the form with your order number and tell us which item you expected and what arrived. We will respond about the next steps."
+      }
+    }
+  },
+  {
+    "page_key": "returns",
+    "section_key": "faq-cancel-purchase",
+    "fields": {
+      "body": {
+        "before": [
+          "Order changes and cancellations depend on the confirmed order and fulfilment process. The sample has no verified cancellation channel or cutoff, so check the final order terms before relying on a timeframe.",
+          "Contact us as soon as you can with your order number and request. Whether an order can be changed or cancelled depends on its status and applicable terms. Your legal rights are unaffected."
+        ],
+        "after": "Contact us as soon as you can with your order number and request. Whether an order can be changed or cancelled depends on its status and applicable terms. Your legal rights are unaffected."
+      }
+    }
+  },
+  {
+    "page_key": "returns",
+    "section_key": "faq-rental-return",
+    "fields": {
+      "body": {
+        "before": [
+          "Rental end dates, collection arrangements and preparation requirements must be confirmed for the specific rental. Review the rental details supplied with the order; this page cannot book a collection or change a rental.",
+          "Follow the return or collection arrangements shown in your rental details, including the end date and care instructions. Contact us through the form if anything is unclear."
+        ],
+        "after": "Follow the return or collection arrangements shown in your rental details, including the end date and care instructions. Contact us through the form if anything is unclear."
+      }
+    }
+  },
+  {
+    "page_key": "returns",
+    "section_key": "faq-rental-extension",
+    "fields": {
+      "body": {
+        "before": [
+          "An extension depends on availability and the rental agreement. No extension process or contact method is connected to this page. Confirm the arrangements through a verified channel once one is provided.",
+          "An extension depends on availability and the terms of your rental. Contact us with your rental details to ask about an extension."
+        ],
+        "after": "An extension depends on availability and the terms of your rental. Contact us with your rental details to ask about an extension."
+      }
+    }
+  },
+  {
+    "page_key": "returns",
+    "section_key": "faq-rental-damage",
+    "fields": {
+      "body": {
+        "before": [
+          "Record the issue and keep any relevant order details. Responsibility and reporting steps depend on the agreed rental terms, which are still pending confirmation.",
+          "Contact us through the form with your rental details and a description of the damage. The agreed rental terms explain responsibilities for the plant and pot."
+        ],
+        "after": "Contact us through the form with your rental details and a description of the damage. The agreed rental terms explain responsibilities for the plant and pot."
+      }
+    }
+  },
+  {
+    "page_key": "privacy",
+    "section_key": "hero",
+    "fields": {
+      "body": {
+        "before": [
+          "This notice is a working draft. Verdant must confirm its identity, information practices, contacts and retention rules before publication.",
+          "This notice explains how Verdant’s website uses personal information when you browse, create an account, place an order, arrange a rental or contact us."
+        ],
+        "after": "This notice explains how Verdant’s website uses personal information when you browse, create an account, place an order, arrange a rental or contact us."
+      }
+    }
+  },
+  {
+    "page_key": "privacy",
+    "section_key": "draft-status",
+    "fields": {
+      "heading": {
+        "before": [
+          "Draft status and responsible party",
+          "Who handles your information"
+        ],
+        "after": "Who handles your information"
+      },
+      "body": {
+        "before": [
+          "This privacy notice is a draft for review. Verdant’s legal identity, trading name, business address and responsible-party details have not been confirmed for publication.\n\nThe Information Officer’s name and contact route also need owner confirmation. This page does not collect or forward a privacy request.",
+          "The operator of the Verdant store handles personal information collected through this website to provide the store and respond to your requests. Use the contact form for a privacy question or request."
+        ],
+        "after": "The operator of the Verdant store handles personal information collected through this website to provide the store and respond to your requests. Use the contact form for a privacy question or request."
+      }
+    }
+  },
+  {
+    "page_key": "privacy",
+    "section_key": "information-collected",
+    "fields": {
+      "heading": {
+        "before": [
+          "Information that may be involved",
+          "Information we handle"
+        ],
+        "after": "Information we handle"
+      },
+      "body": {
+        "before": [
+          "The application contains account, basket, checkout and order journeys. The exact personal information collected at each step, which fields are required or optional, and what is stored must be checked against the live application before this notice is final.\n\nVerdant should also verify server logs, payment processing, delivery records and any enquiry handling before describing them as actual processing.",
+          "When you use the store, information associated with your account and activity can include your name and contact details, account credentials, order and rental details, selected compositions, and messages you send through the contact form. These records are stored in the application database.\n\nThe site uses session information to keep the relevant parts of your visit and account working."
+        ],
+        "after": "When you use the store, information associated with your account and activity can include your name and contact details, account credentials, order and rental details, selected compositions, and messages you send through the contact form. These records are stored in the application database.\n\nThe site uses session information to keep the relevant parts of your visit and account working."
+      }
+    }
+  },
+  {
+    "page_key": "privacy",
+    "section_key": "purposes-and-choice",
+    "fields": {
+      "heading": {
+        "before": [
+          "Purposes and choices",
+          "How we use information"
+        ],
+        "after": "How we use information"
+      },
+      "body": {
+        "before": [
+          "Before publication, Verdant must map each confirmed information item to its purpose and lawful basis, and explain which fields are necessary to provide a requested service.\n\nAny marketing or other optional use must be described accurately, including how a person can make or withdraw a choice where that applies. The current application does not establish a newsletter subscription service.",
+          "We use account and contact details to provide account access, respond to support and privacy requests, and manage orders, rentals and compositions. Order and rental records help us provide the service you requested and keep the related transaction information.\n\nWe do not use the contact form as a newsletter subscription. Please include only information needed to handle your request."
+        ],
+        "after": "We use account and contact details to provide account access, respond to support and privacy requests, and manage orders, rentals and compositions. Order and rental records help us provide the service you requested and keep the related transaction information.\n\nWe do not use the contact form as a newsletter subscription. Please include only information needed to handle your request."
+      }
+    }
+  },
+  {
+    "page_key": "privacy",
+    "section_key": "sharing-and-transfers",
+    "fields": {
+      "heading": {
+        "before": [
+          "Recipients and international processing",
+          "Service providers and transfers"
+        ],
+        "after": "Service providers and transfers"
+      },
+      "body": {
+        "before": [
+          "Payment providers, delivery partners, hosting providers and other recipients must be identified only after the actual integrations and contracts are checked. International access or storage also needs verification.\n\nThis draft does not claim that information is shared with any particular provider or transferred outside South Africa.",
+          "The application sends payment requests to Paystack in test mode. Payment card details are not stored in the Verdant application database.\n\nInformation may also be processed by the providers that host or operate the website and its database. Their identities, processing locations and any access from outside South Africa are not set out here."
+        ],
+        "after": "The application sends payment requests to Paystack. Payment card details are not stored in the Verdant application database.\n\nInformation may also be processed by the providers that host or operate the website and its database. Their identities, processing locations and any access from outside South Africa are not set out here."
+      }
+    }
+  },
+  {
+    "page_key": "privacy",
+    "section_key": "cookies-and-technical-data",
+    "fields": {
+      "heading": {
+        "before": [
+          "Cookies and technical data",
+          "Sessions and technical information"
+        ],
+        "after": "Sessions and technical information"
+      },
+      "body": {
+        "before": [
+          "The actual cookies, logs and other tracking used by the deployed site have not been inventoried for this review. This notice makes no claim about analytics, advertising cookies or tracking technologies.\n\nConfirm the technical inventory and each purpose before describing browser controls or consent choices.",
+          "The website uses session data to support account and store functions during your visit. Standard server and security records may also be created when the site is operated. This notice does not describe advertising or analytics tracking."
+        ],
+        "after": "The website uses session data to support account and store functions during your visit. Standard server and security records may also be created when the site is operated. This notice does not describe advertising or analytics tracking."
+      }
+    }
+  },
+  {
+    "page_key": "privacy",
+    "section_key": "security-and-retention",
+    "fields": {
+      "heading": {
+        "before": [
+          "Safeguards and retention",
+          "Access, storage and account records"
+        ],
+        "after": "Access, storage and account records"
+      },
+      "body": {
+        "before": [
+          "Verdant must confirm the safeguards, authorised access, service providers and retention periods that apply to each system before publishing detailed promises.\n\nArchiving an account is a reversible account-management action. It is different from a request to correct or delete personal information. A correction or deletion request must be assessed against applicable law, active transactions and records that must be retained.",
+          "Account, order, rental, composition and contact messages are stored in the application database. Administrator functions are restricted to role-authorised accounts.\n\nArchiving an account is a reversible account-management action. It does not erase personal information or transaction records. We retain records as needed to operate the service and address related obligations; use the contact form to request access, correction or deletion so the request can be assessed."
+        ],
+        "after": "Account, order, rental, composition and contact messages are stored in the application database. Administrator functions are restricted to role-authorised accounts.\n\nArchiving an account is a reversible account-management action. It does not erase personal information or transaction records. We retain records as needed to operate the service and address related obligations; use the contact form to request access, correction or deletion so the request can be assessed."
+      }
+    }
+  },
+  {
+    "page_key": "privacy",
+    "section_key": "your-rights",
+    "fields": {
+      "body": {
+        "before": [
+          "Subject to POPIA and its conditions, a data subject may ask whether personal information is held and request access, correction or deletion where applicable. A person may also object to certain processing and withdraw consent where processing relies on consent.\n\nA request must be handled through a verified route and assessed in context. This page does not submit a rights request, and it does not promise that every record can be erased immediately.",
+          "Subject to POPIA and its conditions, you may ask whether we hold personal information about you and request access to it. You may ask us to correct information that is inaccurate or incomplete, request deletion where applicable, object to certain processing, or withdraw consent where processing is based on your consent.\n\nUse the contact form to make a privacy request. We may need to verify your identity and consider legal or transaction-record obligations before responding."
+        ],
+        "after": "Subject to POPIA and its conditions, you may ask whether we hold personal information about you and request access to it. You may ask us to correct information that is inaccurate or incomplete, request deletion where applicable, object to certain processing, or withdraw consent where processing is based on your consent.\n\nUse the contact form to make a privacy request. We may need to verify your identity and consider legal or transaction-record obligations before responding."
+      }
+    }
+  },
+  {
+    "page_key": "privacy",
+    "section_key": "questions-and-complaints",
+    "fields": {
+      "body": {
+        "before": [
+          "A Verdant privacy contact and Information Officer route are pending owner confirmation. The final notice should provide a working internal contact method and explain how to raise a concern.\n\nA person may also contact the South African Information Regulator. Its current complaint information is linked below.",
+          "Use the contact form for a privacy question, access request, correction request or deletion request. Include enough detail for us to understand the request, without sending unnecessary sensitive information.\n\nYou may also raise a complaint with the South African Information Regulator."
+        ],
+        "after": "Use the contact form for a privacy question, access request, correction request or deletion request. Include enough detail for us to understand the request, without sending unnecessary sensitive information.\n\nYou may also raise a complaint with the South African Information Regulator."
+      }
+    }
+  },
+  {
+    "page_key": "terms",
+    "section_key": "hero",
+    "fields": {
+      "body": {
+        "before": [
+          "These terms are a working draft for the website, purchases and rentals. Business rules and legal details still need confirmation before publication.",
+          "These terms explain use of the Verdant website and the main information relevant to purchases and plant rentals. The details shown with your order or rental apply to its arrangements."
+        ],
+        "after": "These terms explain use of the Verdant website and the main information relevant to purchases and plant rentals. The details shown with your order or rental apply to its arrangements."
+      }
+    }
+  },
+  {
+    "page_key": "terms",
+    "section_key": "rent-summary",
+    "fields": {
+      "body": {
+        "before": [
+          "Review dates, availability and responsibilities for your rental.",
+          "Check dates, availability and responsibilities for your rental."
+        ],
+        "after": "Check dates, availability and responsibilities for your rental."
+      }
+    }
+  },
+  {
+    "page_key": "terms",
+    "section_key": "using-the-website",
+    "fields": {
+      "body": {
+        "before": [
+          "These terms are draft review copy and are not ready to describe a final agreement. Before publication, confirm the business identity, site rules and any terms that apply when an order or rental is placed.\n\nUse of a sample screen does not create a working order, enquiry or rental agreement.",
+          "Use the website and your account lawfully and keep your sign-in details secure. Do not attempt to disrupt the site, access another person’s account or misuse its content or services. Information submitted through an account or contact form should be accurate and relevant to your request."
+        ],
+        "after": "Use the website and your account lawfully and keep your sign-in details secure. Do not attempt to disrupt the site, access another person’s account or misuse its content or services. Information submitted through an account or contact form should be accurate and relevant to your request."
+      }
+    }
+  },
+  {
+    "page_key": "terms",
+    "section_key": "products-and-availability",
+    "fields": {
+      "body": {
+        "before": [
+          "Plants are living items and can vary. Product descriptions, images, sizes, condition and availability must be checked against the actual catalogue and fulfilment process.\n\nVerdant should confirm how substitutions, unavailable items and material differences are handled before these terms are final.",
+          "Plants are living items and can vary in shape and appearance. Product descriptions and images help you choose, while the item details and availability shown for your order apply to your selection. If an item or detail is unclear, contact us before ordering."
+        ],
+        "after": "Plants are living items and can vary in shape and appearance. Product descriptions and images help you choose, while the item details and availability shown for your order apply to your selection. If an item or detail is unclear, contact us before ordering."
+      }
+    }
+  },
+  {
+    "page_key": "terms",
+    "section_key": "orders-and-payment",
+    "fields": {
+      "heading": {
+        "before": [
+          "Orders and payment",
+          "Orders"
+        ],
+        "after": "Orders and payment"
+      },
+      "body": {
+        "before": [
+          "The order confirmation and payment status must be described to match the live checkout and payment integration. This page does not verify payment, accept an order or promise that an order is confirmed.\n\nThe final terms should explain when an order is accepted, which payment methods are supported and what happens if payment or fulfilment cannot be completed.",
+          "Check the items, quantities, prices and other details shown in your order before completing it. Your account provides access to your order information. If you see an issue or need help, use the contact form and include your order number."
+        ],
+        "after": "Payment is confirmed after verification with the payment provider. An incomplete payment does not confirm an order. Check the items, quantities, prices and other details shown in your order before completing it. Your account provides access to your order information. If you see an issue or need help, use the contact form and include your order number."
+      }
+    }
+  },
+  {
+    "page_key": "terms",
+    "section_key": "delivery-and-collection",
+    "fields": {
+      "body": {
+        "before": [
+          "Coverage, delivery fees, timing, collection points and installation services are not confirmed by this sample. The final terms should match the options actually shown for an order and explain what happens when arrangements change.",
+          "Delivery or collection options, charges and timing are shown with the relevant order. Check those details for your items and destination. If an arrangement changes or needs clarification, contact us through the contact form."
+        ],
+        "after": "Delivery or collection options, charges and timing are shown with the relevant order. Check those details for your items and destination. If an arrangement changes or needs clarification, contact us through the contact form."
+      }
+    }
+  },
+  {
+    "page_key": "terms",
+    "section_key": "rentals",
+    "fields": {
+      "body": {
+        "before": [
+          "Rental duration, price, availability, delivery, collection, care responsibilities, damage and return conditions require confirmation in the applicable rental agreement.\n\nThe final terms should make clear that rented plants and pots remain subject to the agreed rental conditions, once those conditions have been verified.",
+          "Rental dates, prices, availability, care responsibilities and delivery or return arrangements are shown in the rental details. Check them before proceeding and follow the care and return information provided for the rental. Contact us if you have a question about an arrangement."
+        ],
+        "after": "Rental dates, prices, availability, care responsibilities and delivery or return arrangements are shown in the rental details. Check them before proceeding and follow the care and return information provided for the rental. Contact us if you have a question about an arrangement."
+      }
+    }
+  },
+  {
+    "page_key": "terms",
+    "section_key": "returns-and-cancellations",
+    "fields": {
+      "body": {
+        "before": [
+          "Purchase returns, damaged or incorrect items, rental returns and cancellations must follow confirmed business rules and applicable consumer rights. This page does not start a return, cancel an order or issue a refund.\n\nThe Returns & FAQs page lists current content questions.",
+          "For help with a purchase return, damaged or incorrect item, order change or rental return, use the contact form and include your order or rental details. Eligibility and next steps depend on the circumstances and applicable terms. Nothing here limits rights available under applicable consumer law."
+        ],
+        "after": "For help with a purchase return, damaged or incorrect item, order change or rental return, use the contact form and include your order or rental details. Eligibility and next steps depend on the circumstances and applicable terms. Nothing here limits rights available under applicable consumer law."
+      }
+    }
+  },
+  {
+    "page_key": "terms",
+    "section_key": "personal-information",
+    "fields": {
+      "body": {
+        "before": [
+          "Any personal information handled through the live site must be explained in a verified privacy notice. The Privacy & POPIA draft is also awaiting confirmation.",
+          "The Privacy & POPIA page explains how the store handles account, order, rental, composition and contact information, and how to make a privacy request."
+        ],
+        "after": "The Privacy & POPIA page explains how the store handles account, order, rental, composition and contact information, and how to make a privacy request."
+      }
+    }
+  },
+  {
+    "page_key": "terms",
+    "section_key": "questions-and-disputes",
+    "fields": {
+      "body": {
+        "before": [
+          "The final terms should explain the verified process for questions and disputes. Nothing in these draft terms is intended to remove rights that cannot lawfully be excluded.\n\nA public contact route and legal identity remain pending owner confirmation. The sample Contact page can help prepare enquiry details but does not deliver them.",
+          "Use the contact form if you have a question or concern about the website, an order or a rental. These terms do not remove rights available under applicable law. The Returns & FAQs page provides further information about purchase and rental issues."
+        ],
+        "after": "Use the contact form if you have a question or concern about the website, an order or a rental. These terms do not remove rights available under applicable law. The Returns & FAQs page provides further information about purchase and rental issues."
+      }
+    }
+  }
+]

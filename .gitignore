@@ -1,0 +1,38 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+.local/
+hosted.php
+*.pem
+*.key
+*.p12
+*.pfx
+.aws/
+.ssh/
+
+# OS and editor caches
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Dependencies and caches
+vendor/
+node_modules/
+__pycache__/
+*.py[cod]
+.phpunit.cache/
+.phpunit.result.cache
+
+# Logs and runtime artifacts
+*.log
+/storage/sessions/
+/backups/
+/database/dumps/
+*.sql.gz
+*.sql.bak
+/dist/
+/build/
+/.cache/

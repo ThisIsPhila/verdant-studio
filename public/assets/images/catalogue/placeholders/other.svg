@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" role="img" aria-labelledby="title desc">
+  <title id="title">Catalogue placeholder</title><desc id="desc">Neutral geometric placeholder for an unclassified legacy catalogue item.</desc>
+  <rect width="800" height="560" fill="#e8e9e1"/><circle cx="400" cy="240" r="142" fill="#f8f7f0"/><circle cx="400" cy="240" r="66" fill="none" stroke="#8b9788" stroke-width="8"/><path d="M334 240h132M400 174v132" stroke="#8b9788" stroke-width="8"/>
+  <text x="400" y="480" text-anchor="middle" fill="#34463a" font-family="Georgia,serif" font-size="28">CATALOGUE · PLACEHOLDER</text>
+</svg>

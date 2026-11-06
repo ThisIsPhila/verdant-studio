@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" role="img" aria-labelledby="title desc">
+  <title id="title">Plant placeholder</title><desc id="desc">Neutral geometric placeholder for a catalogue plant offer.</desc>
+  <rect width="800" height="560" fill="#e8ecdf"/><circle cx="400" cy="240" r="142" fill="#f7f6ef"/>
+  <path d="M400 350V176m0 94c-67-3-108-37-112-93 59 2 99 27 112 73m0-23c12-58 53-86 112-89-6 58-46 91-112 99" fill="none" stroke="#71836b" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="400" y="480" text-anchor="middle" fill="#34463a" font-family="Georgia,serif" font-size="28">PLANT · PLACEHOLDER</text>
+</svg>

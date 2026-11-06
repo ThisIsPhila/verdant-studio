@@ -1,0 +1,930 @@
+/* PHP page components use the approved sample's global tokens and shared controls. */
+.vision-store .vision-container {
+  max-width: 80rem;
+  margin-inline: auto;
+  padding: 2rem 1.5rem;
+}
+.vision-store .vision-category-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+.vision-category-tabs a {
+  border: 1px solid var(--border);
+  background: var(--card);
+  padding: 0.6rem 1.5rem;
+  font-family: var(--font-display);
+  font-size: 1rem;
+}
+.vision-category-tabs [aria-current] {
+  background: var(--primary);
+  color: var(--primary-foreground);
+}
+.vision-catalogue-layout {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr);
+  gap: 2rem;
+}
+.vision-filter-column {
+  min-width: 0;
+}
+.vision-filter-disclosure > summary {
+  display: none;
+}
+.vision-filter-disclosure:not([open]) > .vision-filter-form {
+  display: block;
+}
+.vision-filter-form {
+  background: var(--surface);
+  padding: 1rem 1.25rem;
+}
+.vision-filter-group {
+  border-top: 1px solid var(--border);
+  padding: 1.25rem 0;
+}
+.vision-filter-group legend {
+  font: 1.125rem var(--font-display);
+  margin-bottom: 0.75rem;
+}
+.vision-filter-group label {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  min-height: 1.75rem;
+  font-size: 0.75rem;
+}
+.vision-filter-group input {
+  accent-color: var(--primary);
+}
+.vision-store .form-field label {
+  display: block;
+  margin-bottom: 0.4rem;
+}
+.vision-store .form-field input,
+.vision-store .form-field select {
+  width: 100%;
+  border: 1px solid var(--border);
+  background: var(--card);
+  padding: 0.6rem;
+}
+.vision-results-heading {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+  font-size: 0.875rem;
+}
+.vision-results-heading h2 {
+  font-size: 1.5rem;
+}
+.vision-sort {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+.vision-sort select,
+.vision-small-button {
+  border: 1px solid var(--border);
+  background: var(--card);
+  padding: 0.5rem;
+  font-size: 0.75rem;
+}
+.vision-catalogue-search {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.5rem;
+  width: min(100%, 22rem);
+  margin-bottom: 1rem;
+}
+.vision-catalogue-search label { grid-column: 1 / -1; font-size: 0.72rem; color: var(--muted-foreground); }
+.vision-catalogue-search input {
+  min-width: 0;
+  min-height: 44px;
+  border: 1px solid var(--border);
+  background: var(--card);
+  padding: 0.7rem;
+  font: inherit;
+}
+.vision-filter-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 0.75rem;
+}
+.vision-filter-chips li {
+  background: var(--secondary);
+  border-radius: 1rem;
+  padding: 0.35rem 0.75rem;
+}
+.vision-product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+.vision-product-grid .product-card {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+}
+.vision-card-image {
+  position: relative;
+  background: var(--surface);
+}
+.vision-card-image > a {
+  display: block;
+  aspect-ratio: 9/10;
+}
+.vision-card-image img,
+.vision-card-image canvas,
+.vision-card-image .product-thumbnail {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.vision-card-image .vision-card-plain {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #e8e2d5;
+}
+.vision-card-image--mat > a img {
+  object-fit: contain;
+  object-position: 50% 100%;
+  background: #e9e2d3;
+  padding: 6% 6% 2%;
+  box-sizing: border-box;
+}
+.vision-mode-badge {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  background: var(--primary);
+  color: var(--primary-foreground);
+  font-size: 0.5rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 0.2rem 0.4rem;
+}
+.vision-mode-badge--buy {
+  background: var(--terracotta);
+}
+.vision-save {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+.vision-product-grid h3 {
+  font-size: 1.125rem;
+  margin-top: 0.5rem;
+}
+.vision-card-kind {
+  font-size: 0.75rem;
+  color: var(--muted-foreground);
+}
+.vision-card-bottom {
+  margin-top: auto;
+  padding-top: 0.25rem;
+}
+.vision-card-price {
+  font: 1.125rem var(--font-display);
+  margin-bottom: 0.5rem;
+}
+.vision-card-bottom .btn-solid {
+  width: 100%;
+  padding: 0.65rem 0.5rem;
+  font-size: 0.65rem;
+}
+.vision-card-description {
+  font-size: 0.75rem;
+  line-height: 1.35;
+  color: var(--muted-foreground);
+  margin-top: 0.25rem;
+  min-height: 2.7em;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.vision-store .pagination {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 2rem 0;
+}
+.vision-store .pagination:has(.pagination-count) {
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+.vision-store .pagination-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+.vision-store .pagination-count {
+  margin: 0;
+  font-size: 0.8rem;
+  color: var(--muted-foreground);
+}
+.vision-store .alert,
+.vision-store .session-note {
+  border: 1px solid var(--border);
+  background: var(--secondary);
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 80rem;
+}
+.vision-store .alert h2 {
+  font-size: 1.5rem;
+}
+.vision-store .empty-state {
+  padding: 3rem 1rem;
+  text-align: center;
+}
+.vision-store .empty-state h2 {
+  font-size: 1.75rem;
+}
+.vision-guidance h2 {
+  font-size: 1.5rem;
+}
+@media (max-width: 1279px) {
+  .vision-product-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+@media (max-width: 1023px) {
+  .vision-catalogue-layout {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .vision-filter-disclosure > summary {
+    display: block;
+    border: 1px solid var(--border);
+    padding: 0.8rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-size: 0.75rem;
+    cursor: pointer;
+  }
+  .vision-filter-disclosure:not([open]) > .vision-filter-form {
+    display: none;
+  }
+  .vision-product-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (min-width: 1024px) {
+  .vision-filter-disclosure::details-content {
+    content-visibility: visible;
+    display: block;
+  }
+}
+.vision-store .vision-category-tabs {
+  flex-wrap: wrap;
+}
+.vision-category-tabs a {
+  white-space: nowrap;
+}
+.vision-store .vision-guidance {
+  padding-block: 1rem;
+}
+.vision-other-arrangements {
+  margin-bottom: 1.5rem;
+  font-size: 0.875rem;
+}
+.vision-other-arrangements summary {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.vision-other-arrangements nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-block: 1rem;
+}
+.vision-config-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.configuration-media-layout {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  background: var(--card);
+}
+/* Before any selection the preview is absent: the form then takes the full
+   width instead of being squeezed into the preview column. */
+.configuration-media-layout:not(:has(> .configuration-media-preview)) {
+  grid-template-columns: 1fr;
+}
+.configuration-media-preview {
+  min-width: 0;
+  background: var(--surface);
+}
+.configuration-media-preview .product-gallery__frame {
+  margin: 0;
+  border: 0;
+}
+.configuration-media-preview > p {
+  padding: 1rem;
+  font-size: 0.75rem;
+}
+@media (min-width: 1024px) {
+  .configuration-media-preview {
+    position: sticky;
+    top: var(--site-header-height);
+    align-self: start;
+  }
+  .configuration-media-preview .product-gallery {
+    /* Keep the whole 4:5 scene visible, including its view controls. */
+    width: min(100%, calc((100dvh - var(--site-header-height) - 8rem) * 0.8));
+    margin-inline: auto;
+  }
+}
+.configuration-media-form {
+  padding: 1.5rem 2rem;
+  min-width: 0;
+}
+.vision-store .composition-component {
+  border: 0;
+  padding: 1rem 0;
+  min-width: 0;
+}
+.vision-store .composition-component > legend {
+  font: 1.5rem var(--font-display);
+}
+.vision-store .composition-component .composition-component > legend {
+  font: 0.75rem var(--font-sans);
+  color: var(--muted-foreground);
+}
+.vision-choice-grid {
+  display: grid;
+  /* Cap tile width: a group with one option must not stretch it full-row. */
+  grid-template-columns: repeat(auto-fill, minmax(140px, 180px));
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+.vision-choice-tile {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  border: 2px solid transparent;
+  cursor: pointer;
+  padding: 0.35rem;
+  font-size: 0.75rem;
+}
+.vision-choice-tile:has(input:checked) {
+  border-color: var(--primary);
+  background: var(--secondary);
+}
+.vision-choice-tile:focus-within {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+.vision-choice-tile input {
+  accent-color: var(--primary);
+  align-self: flex-start;
+}
+.vision-choice-tile img {
+  width: 100%;
+  aspect-ratio: 3/4;
+  object-fit: cover;
+  background: var(--surface);
+}
+.vision-choice-tile--mat img {
+  object-fit: contain;
+  object-position: 50% 100%;
+  background: #e9e2d3;
+  padding: 6% 6% 2%;
+  box-sizing: border-box;
+}
+.vision-choice-tile small {
+  color: var(--muted-foreground);
+}
+.vision-choice-controls {
+  display: grid;
+  grid-template-columns: auto minmax(80px, 1fr);
+  gap: 0.5rem;
+  align-items: center;
+  font-size: 0.8rem;
+}
+.vision-choice-controls input,
+.vision-choice-controls select,
+.vision-store .composition-builder > .field input {
+  border: 1px solid var(--border);
+  padding: 0.5rem;
+  background: var(--card);
+  width: 100%;
+  min-width: 0;
+}
+.vision-choice-controls [data-rental-fields] {
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
+.vision-store .composition-builder > .field {
+  margin-block: 1rem;
+  font-size: 0.8rem;
+}
+.vision-store .form-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+.vision-store .form-actions button,
+.vision-store .form-actions .button {
+  border: 1px solid var(--primary);
+  padding: 0.7rem 1rem;
+  font-size: 0.75rem;
+}
+.vision-store .form-actions button[type="submit"]:not([formaction]) {
+  background: var(--primary);
+  color: var(--primary-foreground);
+}
+.vision-selection-summary {
+  margin-top: 2rem;
+  padding: 2rem;
+  background: var(--surface);
+}
+.vision-selection-summary h2 {
+  font-size: 2rem;
+}
+.vision-selection-summary .item-summary li {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  border-bottom: 1px solid var(--border);
+  padding: 1rem 0;
+}
+.vision-selection-summary .item-summary span {
+  display: block;
+  font-size: 0.8rem;
+}
+.vision-selection-summary .summary-total {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+@media (max-width: 1023px) {
+  .configuration-media-layout {
+    grid-template-columns: 1fr;
+  }
+  .configuration-media-preview {
+    max-width: 500px;
+    width: 100%;
+    margin-inline: auto;
+  }
+}
+@media (max-width: 639px) {
+  .configuration-media-form {
+    padding: 1rem 0;
+  }
+  .vision-choice-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .vision-selection-summary {
+    padding: 1rem;
+  }
+}
+.vision-choice-tile {
+  position: relative;
+}
+.vision-choice-tile input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+.vision-choice-tile .product-thumbnail {
+  width: 100%;
+  aspect-ratio: 3/4;
+  display: block;
+  overflow: hidden;
+}
+.vision-choice-tile .product-thumbnail img,
+.vision-choice-tile canvas {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.vision-basket-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.6fr) minmax(280px, 1fr);
+  gap: 2rem;
+}
+.vision-muted {
+  font-size: 0.875rem;
+  color: var(--muted-foreground);
+}
+.vision-store .basket-cards {
+  border: 1px solid var(--border);
+  background: var(--card);
+  margin-block: 1rem 1.5rem;
+}
+.vision-basket-summary {
+  align-self: start;
+  padding: 1.5rem;
+  background: var(--surface);
+}
+.vision-summary-line {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.875rem;
+}
+.vision-basket-total {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  font: 1.875rem var(--font-display);
+  margin-block: 1.25rem;
+}
+.vision-basket-summary .btn-solid,
+.vision-basket-summary .btn-outline {
+  width: 100%;
+  margin-block: 1rem;
+}
+.vision-basket-help {
+  border-top: 1px solid var(--border);
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+}
+.vision-basket-help h3 {
+  font-size: 1.5rem;
+}
+.vision-quantity {
+  font-size: 0.75rem;
+}
+.vision-quantity-controls {
+  display: flex;
+  border: 1px solid var(--border);
+  align-items: center;
+}
+.vision-quantity-controls input {
+  width: 2.5rem;
+  min-width: 0;
+  text-align: center;
+  appearance: textfield;
+}
+.vision-quantity-controls input::-webkit-inner-spin-button {
+  appearance: none;
+}
+.vision-quantity-controls button {
+  width: 1.75rem;
+  height: 2rem;
+}
+.vision-quantity-update,
+.vision-remove {
+  text-decoration: underline;
+  font-size: 0.75rem;
+  color: var(--muted-foreground);
+  margin-top: 0.4rem;
+}
+@media (max-width: 1023px) {
+  .vision-basket-layout {
+    grid-template-columns: 1fr;
+  }
+}
+.vision-account-layout {
+  display: grid;
+  grid-template-columns: 200px minmax(0, 1fr);
+  gap: 2rem;
+  align-items: start;
+}
+.vision-store .account-navigation .icon {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.5;
+}
+.vision-store .account-navigation [aria-current],
+.vision-store .account-navigation [aria-selected="true"] {
+  background: var(--secondary);
+}
+.vision-account-history {
+  min-width: 0;
+  display: grid;
+  gap: 3rem;
+}
+.vision-account-panels {
+  display: grid;
+  gap: 3rem;
+}
+[data-tabs-ready] .vision-account-panels {
+  gap: 0;
+  overflow-anchor: none;
+}
+[data-tabs-ready] .vision-account-panels > [role="tabpanel"] {
+  grid-area: 1 / 1;
+  align-self: start;
+  min-width: 0;
+}
+[data-tabs-ready] .vision-account-panels > [aria-hidden="true"] {
+  visibility: hidden;
+  pointer-events: none;
+}
+.vision-account-greeting {
+  font-size: 0.875rem;
+}
+.vision-account-profile {
+  background: var(--surface);
+  padding: 1.5rem;
+  min-width: 0;
+}
+.vision-profile-email {
+  overflow-wrap: anywhere;
+  margin-block: 0.75rem;
+  font-size: 0.875rem;
+}
+.vision-account-profile .btn-outline {
+  width: 100%;
+  margin-block: 1rem;
+}
+.vision-account-section {
+  scroll-margin-top: calc(var(--site-header-height) + 76px);
+}
+.vision-account-empty {
+  border: 1px solid var(--border);
+  padding: 1.5rem;
+  background: var(--card);
+  margin-bottom: 1rem;
+}
+.vision-account-empty h3 {
+  font-size: 1.5rem;
+}
+.vision-account-empty .link-caps {
+  margin-top: 1rem;
+}
+.vision-account-history .account-record {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.25rem;
+  border: 1px solid var(--border);
+  padding: 1rem;
+  background: var(--card);
+  margin-block: 0.75rem;
+}
+.vision-record-details {
+  flex: 1;
+  min-width: 0;
+}
+.vision-record-details h3 {
+  font-size: 1.25rem;
+}
+.vision-record-actions {
+  border-left: 1px solid var(--border);
+  padding-left: 1.5rem;
+}
+.vision-record-status {
+  font-size: 0.875rem;
+  margin-bottom: 0.75rem;
+}
+.vision-account-history .account-record > img {
+  width: 112px;
+  height: 96px;
+  object-fit: cover;
+}
+.vision-saved-record {
+  border: 1px solid var(--border);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.vision-saved-record h3 {
+  font-size: 1.5rem;
+}
+.vision-saved-record .btn-outline {
+  margin-top: 0.75rem;
+}
+.vision-auth-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(300px, 440px);
+  gap: 4rem;
+  align-items: start;
+}
+.vision-auth-layout > div .btn-outline {
+  margin-top: 1.5rem;
+}
+.vision-auth-card {
+  background: var(--surface);
+  padding: 1.5rem;
+  min-width: 0;
+}
+.vision-auth-card form {
+  display: grid;
+  gap: 1rem;
+  margin-block: 1.25rem;
+}
+.vision-auth-card .field {
+  display: grid;
+  gap: 0.4rem;
+  font-size: 0.875rem;
+}
+.vision-auth-card input {
+  width: 100%;
+  min-width: 0;
+  background: var(--card);
+  padding: 0.65rem 0.75rem;
+  border: 1px solid var(--border);
+}
+.vision-password-control {
+  position: relative;
+}
+.vision-password-control input {
+  min-height: 48px;
+  color: var(--foreground);
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+.vision-password-control:has(.vision-password-toggle:not([hidden])) input {
+  padding-right: 3.25rem;
+}
+.vision-password-control input[type="password"] {
+  letter-spacing: 0.15em;
+}
+.vision-password-toggle {
+  position: absolute;
+  inset: 2px 2px 2px auto;
+  width: 44px;
+  display: grid;
+  place-items: center;
+  color: var(--foreground);
+  background: transparent;
+  cursor: pointer;
+}
+.vision-password-toggle:hover {
+  background: var(--surface);
+}
+.vision-password-toggle:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: -3px;
+}
+.vision-auth-card .help,
+.vision-auth-card .field-error {
+  font-size: 0.75rem;
+}
+.vision-auth-card form > button {
+  width: 100%;
+  background: var(--primary);
+  color: var(--primary-foreground);
+  padding: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 0.75rem;
+}
+.vision-auth-card > p:last-child {
+  font-size: 0.875rem;
+}
+.vision-auth-card > p:last-child a {
+  text-decoration: underline;
+}
+@media (max-width: 1023px) {
+  .vision-account-layout,
+  .vision-auth-layout {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .vision-auth-card {
+    grid-row: 1;
+  }
+  .vision-account-layout > .account-navigation {
+    position: sticky;
+    top: var(--site-header-height);
+  }
+  .vision-account-profile {
+    max-width: 500px;
+    width: 100%;
+  }
+}
+@media (max-width: 639px) {
+  .vision-account-history .account-record {
+    display: grid;
+    grid-template-columns: 80px minmax(0, 1fr);
+    gap: 1rem;
+  }
+  .vision-account-history .account-record:not(:has(> img)) {
+    grid-template-columns: 1fr;
+  }
+  .vision-account-history .account-record > img {
+    width: 80px;
+    height: 96px;
+  }
+  .vision-record-actions {
+    grid-column: 1/-1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.75rem;
+    align-items: center;
+    border: 0;
+    padding: 0;
+  }
+  .vision-record-status {
+    margin: 0;
+  }
+  .vision-auth-card {
+    padding: 1rem;
+  }
+}
+.vision-rental-dates {
+  background: var(--surface);
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+.vision-rental-dates h2 {
+  font-size: 1.5rem;
+}
+.vision-rental-dates form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: 1rem;
+  margin-block: 0.75rem;
+}
+.vision-rental-dates label {
+  display: grid;
+  gap: 0.35rem;
+  font-size: 0.875rem;
+}
+.vision-rental-dates input {
+  min-width: 0;
+  border: 1px solid var(--border);
+  background: var(--card);
+  padding: 0.5rem;
+}
+.vision-store .vision-configuration-page {
+  max-width: none;
+  padding: 0;
+}
+.vision-configuration-page > .vision-other-arrangements,
+.vision-config-title {
+  max-width: 80rem;
+  margin-inline: auto;
+  padding: 1rem 1.5rem;
+}
+.vision-configuration-page .vision-selection-summary {
+  margin-top: 0;
+  padding: 2rem max(1.5rem, calc((100% - 77rem) / 2));
+}
+@media (max-width: 1023px) {
+  .configuration-media-form {
+    padding: 1.5rem;
+  }
+}
+.vision-store .vision-rental-service {
+  display: grid;
+  gap: 1.5rem;
+  padding-block: 1rem;
+}
+@media (min-width: 1024px) {
+  .vision-store .vision-rental-service {
+    grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr) minmax(0, 1fr);
+    align-items: start;
+  }
+}
+.vision-store .vision-rental-service h2 {
+  font: 400 2rem/1.1 var(--font-display);
+}
+.vision-store .vision-rental-service h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+.vision-store .vision-rental-service p {
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--muted-foreground);
+}
+.vision-store .vision-rental-arrangements {
+  display: grid;
+  gap: 1.5rem;
+  padding-block: 1rem;
+}
+.vision-store .vision-rental-arrangements > div > p {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--muted-foreground);
+}
+.vision-store .vision-rental-arrangements .btn-outline {
+  justify-self: start;
+  margin-top: 0.5rem;
+}

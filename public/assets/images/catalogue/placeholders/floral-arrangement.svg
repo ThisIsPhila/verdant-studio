@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" role="img" aria-labelledby="title desc">
+  <title id="title">Floral arrangement placeholder</title><desc id="desc">Abstract geometric placeholder for a floral arrangement.</desc>
+  <rect width="800" height="560" fill="#eee5e2"/><circle cx="400" cy="240" r="142" fill="#fbf7f1"/>
+  <g fill="none" stroke="#9a7770" stroke-width="8" stroke-linecap="round"><path d="M355 334h90l-10 34h-70zM365 334l-24-67m47 67v-83m25 83 24-67"/><circle cx="341" cy="254" r="16"/><circle cx="388" cy="235" r="17"/><circle cx="437" cy="254" r="16"/></g>
+  <text x="400" y="480" text-anchor="middle" fill="#4e3c39" font-family="Georgia,serif" font-size="28">FLORAL ARRANGEMENT · PLACEHOLDER</text>
+</svg>
